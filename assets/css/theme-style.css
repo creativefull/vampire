@@ -9,6 +9,7 @@ section {
 .post-thumbnail {
 	height:260px; width:100%; background-size:cover; background-repeat:no-repeat; background-position:center;
 	border-radius: 0px;
+	background-color: #CCC;
 }
 .post-desc a {
 	color:#2c3e50;
