@@ -1,0 +1,16 @@
+{{#foreach posts}}
+    <div class="col-sm-4 portfolio-item post-item">
+            {{#if image}}
+                <div style="background-image:url('{{image}}');" class="post-thumbnail"></div>
+            {{else}}
+                <div style="background-image:url('{{asset "img/no_preview.jpg"}}')"></div>
+            {{/if}}
+        <div class="post-desc">
+            <a href="{{url}}">
+                <h4>{{{title}}}</h4>
+            </a>
+            <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
+            <p>{{excerpt words="30"}}</p>
+        </div>
+    </div>
+{{/foreach}}
