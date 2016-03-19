@@ -62,3 +62,6 @@ header {
 .author a:hover {
 	text-decoration: none;
 }
+.btn-social {
+	border:2px solid#089;
+}
