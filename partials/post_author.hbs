@@ -1,0 +1,20 @@
+<section class="success author" style="padding:100px; background-color:#2c3e50">
+	<div class="container">
+		<div class="row">
+			{{#if author.image}}
+				<div class="author-image" style="background-image:url({{author.image}}); margin:0px auto; margin-bottom:1em"></div>
+			{{/if}}
+			<div class="col-lg-12 text-center">
+				<h2>{{author.name}}</h2>
+				<hr class="star-light">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-2"></div>
+		    <div class="col-lg-8 text-center">
+		        <p>{{author.bio}}</p>
+		    </div>
+			<div class="col-lg-2"></div>
+		</div>
+	</div>
+</section>
