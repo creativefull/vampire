@@ -5,6 +5,9 @@ section {
 	background-color: #ECEFF1;
 	padding:1em;
 	margin-bottom: 1em;
+	height: 295px;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 .post-thumbnail {
 	height:260px; width:100%; background-size:cover; background-repeat:no-repeat; background-position:center;
