@@ -6,4 +6,4 @@ clone this theme
 ```
 git clone https://github.com/creativefull/vampire
 ```
-then paste on your ghost project in directory ** content/themes/ **
+then paste on your ghost project in directory content/themes/
